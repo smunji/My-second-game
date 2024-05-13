@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>My Second Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="house"><img src="images/House.png" width="450px"; height="auto"></div>
+    <div id="items" class="items">
+        <div class="food yellow orange">Lemon</div>
+        <div class="string navy">Violin</div>
+        <div class="nature yellow teal">Marigold</div>
+        <div class="nature fold pearl">Seashells</div>
+    </div>
+    <div id="buttons" class="buttons">
+        <div id="bt" class="cyan ck">
+            <label for="lemon" class="radioParent">
+                <input type="radio" id="cyan" name="items" value="lemon" />
+                <img src="images/Button4.png" width="130px"; height="200px";>
+            </label>
+        </div>
+        <div id="bt" class="cherSand">
+            <div class="cher ck">
+                <label for="violin" class="radioParent">
+                    <input type="radio" id="cher" name="items" value="violin" />
+                    <img src="images/Button3.png" class="cher"; width="128px"; height="135px";>
+                </label>
+            </div>
+            <div id="bt" class="sand ck">
+                <label for="marigold" class="radioParent">
+                    <input type="radio" id="sand" name="items" value="marigold" />
+                    <img src="images/Button2.png" class="sand" width="130px"; height="150px";>
+                </label>
+            </div>
+        </div>
+        <div id="bt" class="purple ck">
+            <label for="seashells" class="radioParent">
+                <input type="radio" id="purple" name="items" value="seashells" />
+                <img src="images/Button1.png" width="130px"; height="200px";>
+            </label>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>

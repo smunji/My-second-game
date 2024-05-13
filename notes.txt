@@ -1,0 +1,106 @@
+!! ADD A BUTTON THAT CONFIRMS ITEM CHOICE AND GOES ON TO NEXT FILE
+
+rgb (255, 101, 250) //bubblegum pink
+
+rgb (250, 255, 101) // sand
+
+rgb (101, 250, 255) //cotton candy blue
+
+rgb (250, 53, 116) //magenta red
+
+rgb (143, 124, 143) //purple grey
+
+rgb (159, 121, 158) //grey purple
+
+
+
+rgb (255, 246, 211) //light dark pearl
+
+rgb (213, 135, 0) //orange yellow
+
+rgb (37, 178, 143) //teal
+
+rgb (0, 44, 126) //navy blue
+
+-intro, instructions
+-pick up gameboy
+-room 1, four items, radio buttons
+-room 2, four items, radio buttons
+-room 3, four items, radio buttons
+-room 4, four items, radio buttons
+-put down gameboy, look through items
+-talk with me, tally score
+
+files: css, js, 8 html files, image files for background.
+
+learning: how to use type= radio, styling flex, setting up margin, padding, ect.
+
+items: group one(book, honey, ocean, zither), group two(laptop, guitar, pikachu, sypmphony), group three(lemon, violin, marigold, carrot), group four(mountain, lyre, compass, seashells)
+
+nature
+    ocean
+    mountain
+    seashells
+    marigold
+yellow
+    marigold
+    lemon
+    honey
+    pikachu
+food
+    honey
+    mustard
+    lemon
+    carrot
+folds
+    laptop
+    book
+    compass
+    seashells
+stringed
+    zither
+    guitar
+    violin
+    lyre
+
+
+
+navy blue: violin, mountain, symphony, book
+pearl: laptop, seashells, lyre, honey
+orange: ocean, lemon, compass, guitar
+teal: marigold, pikachu, carrot, zither
+
+
+images: house, buttons(cyan, red, pink, yellow), notebook, mini-house
+
+CLASSES
+    vertLay (parent container)
+    main
+    house
+    jokji
+    on
+    button
+    cyan
+    cherSand
+    cher
+    sand
+    purple
+    items
+    fold
+    navy
+    yellow
+    food
+    pearl
+    nature
+    orange
+    string
+    teal
+
+
+IDS
+    nextBtn
+    intro1
+    intro2
+    intro3
+    intro4
+    intro5

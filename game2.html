@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>My Second Game</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <div class="house">
+        <div class="image"></div>
+        <div id="items" class="items">
+            <div class="its fold navy" value="book">Book</div>
+            <div class="its yellow food pearl" value="honey">Honey</div>
+            <div class="its nature orange" value="ocean">Ocean</div>
+            <div class="its string teal" value="zither">Zither</div>
+        </div>
+        <div id="buttons" class="buttons">
+            <div name="bt" class="cyan ck">
+                <label for="book" class="radioParent">
+                    <input type="radio" id="cyan" name="items" value="book" class="radio"/>
+                    <img src="images/Button4.png" width="130px"; height="200px";>
+                </label>
+            </div>
+            <div class="cherSand">
+                <div name="bt" class="cher ck">
+                    <label for="honey" class="radioParent">
+                        <input type="radio" id="cher" name="items" value="honey" class="radio"/>
+                        <img src="images/Button3.png" width="130px" height="100px">
+                    </label>
+                </div>
+                <div name="bt" class="sand ck">
+                    <label for="ocean" class="radioParent">
+                        <input type="radio" id="sand" name="items" value="ocean" class="radio"/>
+                        <img src="images/Button2.png" width="130px" height="130px">
+                    </label>
+                </div>
+            </div>
+            <div name="bt" class="purple ck">
+                <label for="zither" class="radioParent">
+                    <input type="radio" id="purple" name="items" value="zither" class="radio"/>
+                    <img src="images/Button1.png" width="130px"; height="200px";>
+                </label>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        startButton();
+    </script>
+</body>
